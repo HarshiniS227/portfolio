@@ -1,0 +1,165 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+<title>Portfolio</title> 
+<style> 
+Body { 
+Font-family: Georgia, serif; 
+Margin: 0; 
+Padding: 0; 
+Background-color: #fa9cd9; 
+} 
+Header { 
+Background-color:hsl(339, 100.00%, 54.90%) 
+; 
+Color: #fff; 
+Text-align: center; 
+Padding: 2rem 0; 
+Position: relative; /* Add this */ 
+} 
+.header-content h1 { 
+Font-size: 2.5rem; 
+} 
+/* Add styles for the round profile picture */ 
+.profile-picture { 
+Width: 100px; /* Adjust the size as needed */ 
+Height: 100px; 
+Border-radius: 75%; /* Create a circular shape */ 
+Object-fit: cover; /* To ensure the image fills the circular area */ 
+Position: absolute; /* Add this */ 
+Top: 75px; /* Adjust top position as needed */ 
+Left: 75px; /* Adjust left position as needed */ 
+} 
+Nav { 
+Background-color: #333; 
+Color: #fff; 
+Text-align: center; 
+} 
+Nav ul { 
+List-style-type: none; 
+Padding: 0; 
+} 
+Nav ul li { 
+Display: inline; 
+Margin: 0 20px; 
+} 
+Nav ul li a { 
+Text-decoration: none; 
+Color: #fff; 
+} 
+.section-content { 
+Background-color: #fff; 
+Padding: 2rem; 
+Margin: 1rem; 
+Border-radius: 20px; 
+Box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+Text-align: justify; 
+} 
+.download-button { 
+Background-color: #333; 
+Color: #fff; 
+Padding: 0.5rem 1rem; 
+Text-decoration: none; 
+Border-radius: 20px; 
+Display: inline-block; 
+Margin-top: 10px; 
+Align-self: center; 
+} 
+.download-button:hover { 
+Background-color: #555; 
+} 
+Footer { 
+Text-align: center; 
+Padding: 1rem 0; 
+Background-color: #333; 
+Color: #fff; 
+} 
+Ul { 
+List-style-type: disc; 
+Padding-left: 20px; 
+} 
+</style> 
+</head> 
+<body> 
+<header> 
+<div class=”header-content”> 
+<!—Add your profile picture here 🡪 
+<img src=”file:///C:/Users/GOD/Downloads/IMG-20250318-WA0105.jpg” alt=”Your Profile Picture” class=”profile-picture”> 
+<h1>Harshini.S</h1> 
+<p>STUDENT</p> 
+</div> 
+</header> 
+<nav> 
+<ul> 
+<li><a href=”#objective”>OBJECTIVE</a></li> 
+<li><a href=”#education”>EDUCATION</a></li> 
+<li><a href=”#skills”>SKILLS</a></li> 
+<li><a href=”#projects”>PROJECTS</a></li> 
+<li><a href=”#resume”>RESUME</a></li> 
+</ul> 
+</nav> 
+<section id=”objective”> 
+<div class=”section-content”> 
+<h2>OBJECTIVE</h2> 
+<p>my objective is to secure good reputation in my working environment and to work in a full fledged way .</p> 
+</div> 
+</section> 
+<section id=”education”> 
+<div class=”section-content”> 
+<h2>EDUCATION</h2> 
+<p1>B.Sc. INFORMATION TECHNOLOGY 
+</p1> 
+<br>Sri Krishna Adithya College of Arts and Science</br> 
+<br>Coimbatore,Tamil Nadu. </br> 
+</div> 
+</section> 
+<section id=”skills”> 
+<div class=”section-content”> 
+<h2>SKILLS</h2> 
+<ul> 
+<li>interpersonal skills</li> 
+<li>creative skills</li> 
+<li>problem solving skills</li> 
+<li>coding skills</li> 
+</ul> 
+</div> 
+</section 
+<section id=”projects”> 
+<div class=”section-content”> 
+<h2>Projects</h2> 
+<ul> 
+<li><a href=”#”>Participated on inter college competition related to coding</a></li> 
+</ul> 
+</div> 
+</section> 
+<section id=”resume”> 
+<div class=”section-content”> 
+<center> 
+<h2>Resume</h2> 
+<a href=”file:///C:/Users/GOD/Downloads/Harshini%20resume.pdf” target=”_blank” class=”download-button”>Download CV</a>
+Button”>Download CV</a> 
+</center> 
+</div> 
+</section> 
+<footer> 
+<p>&copy; 2025 HARSHINI S </p> 
+</footer> 
+<script> 
+// Smooth scrolling to section when clicking on navigation links 
+Document.querySelectorAll(‘a[href^=”#”]’).forEach(anchor => { 
+Anchor.addEventListener(‘click’, function€ { 
+e.preventDefault(); 
+const targetId = this.getAttribute(‘href’).substring(1); 
+const targetElement = document.getElementById(targetId); 
+if (targetElement) { 
+window.scrollTo({ 
+top: targetElement.offsetTop, 
+behavior: ‘smooth’ 
+}); 
+} 
+}); 
+}); 
+</script> 
+</body> 
+</html>
+
